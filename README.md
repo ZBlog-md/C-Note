@@ -1,6 +1,6 @@
 # C-Note
 C语言的边角料问题
-
+---
 ### strcpy和lstrcpy有什么区别
 
 - strcpy是C运行时函数,是标准C提供的函数
