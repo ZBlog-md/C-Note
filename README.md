@@ -17,3 +17,4 @@ swprintf(FPSString, L"%f", FPS);   //正确
 wsprintf(FPSString, L"%f", FPS);   //错误
 ```
 ---
+### 3.wsprintf缓冲区大小为1024字节
