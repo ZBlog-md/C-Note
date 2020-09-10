@@ -28,6 +28,7 @@ A *a = new A[10];
 delete a; //仅释放了a指针指向的全部内存空间 但是只调用了a[0]对象的析构函数 
           //剩下的从a[1]到a[9]这9个用户自行分配的m_cBuffer对应内存空间将不能释放 从而造成内存泄漏
 ```
+---
 ### 5.ConvertSidToStringSidA 的 StringSid 释放
 ```C
 BOOL ConvertSidToStringSidA(
